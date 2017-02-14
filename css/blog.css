@@ -39,6 +39,14 @@
     transition: all 0.2s linear;
   }
 
+  .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #2e6da4;
+}
+
+
+
 /*
 .navbar-default .navbar-brand {
    color:#fff;
@@ -50,17 +58,45 @@
    margin: 0 auto;
 }
 
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    color: #fff;
+}
+
+.med-icon {
+    font-size: 45px;
+}
+
+ .service-block i {
+    float: left;
+}
+
+ .service-block h3 {
+    margin-top: 0;
+    padding-top: 4px;
+    margin-left: 60px;
+}
+
+.service-block p {
+    margin-left: 60px;
+}
+
+.showcase {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
 .intro-header {
-  background-color: #777777;
+/*  background-color: #777777;*/
   background: no-repeat center center;
   background-attachment: scroll;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
 
-  padding: 70px 0 0px;
+  padding: 110px 0 0px;
   color: white;
 }

@@ -8,11 +8,7 @@ var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
 
 
-<<<<<<< HEAD
 // este es mi comentario que comple al 100 con lo que dice el arquitecto :P
-=======
-// segun yo esta cosa imprime algo creo .....
->>>>>>> 03d902538d6303641ef57944d88013744b5d680a
 var banner = ['/*!\n',
     ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
     ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',

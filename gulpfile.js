@@ -7,7 +7,7 @@ var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
 
-// Set the banner content
+// Set the banner content desde rama 2
 var banner = ['/*!\n',
     ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
     ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
